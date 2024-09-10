@@ -188,3 +188,37 @@ ol li::marker {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+@media (min-width: 770px) {
+    body {
+        background-color: var(--stone-100);
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        background-color: white;
+        width: 50%;
+        margin: 4rem;
+        border-radius: 1rem;
+    }
+
+    picture {
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+
+    img {
+        border-radius: .5rem;
+    }
+
+    main {
+        padding-top: 0;
+    }
+    
+}
+
+/* @media (min-width: 1200px) {
+    
+} */
